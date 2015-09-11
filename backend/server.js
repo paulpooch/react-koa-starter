@@ -55,5 +55,5 @@ var server = new WebpackDevServer(compiler, {
   if (err) {
     console.log(err);
   }
-  console.log(`Hot loader listening at 0.0.0.0:${ config.HOTLOADER_SERVER_PORT }`);
+  console.log(`Hot loader listening on port ${ config.HOTLOADER_SERVER_PORT }`);
 });
